@@ -8,6 +8,7 @@ let rl = readline.createInterface({
 	output: process.stdout,
 	terminal: false
 });
+console.log('type the message and press [ENTER]');
 
 const obfuscatedDict = Object.keys(MORSE_DICT).reduce( (dict, char) => {
     return {
